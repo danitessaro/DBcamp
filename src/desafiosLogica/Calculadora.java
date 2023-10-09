@@ -9,18 +9,18 @@ public class Calculadora {
         double numero1, numero2, resultado;
         String operacao;
 
-        System.out.println("Calculadora - Digite a operação desejada:");
-        System.out.println("1 - Adição (+)");
-        System.out.println("2 - Subtração (-)");
-        System.out.println("3 - Multiplicação (*)");
-        System.out.println("4 - Divisão (/)");
+        System.out.print("Calculadora - Digite a operação desejada:");
+        System.out.print("1 - Adição (+)");
+        System.out.print("2 - Subtração (-)");
+        System.out.print("3 - Multiplicação (*)");
+        System.out.print("4 - Divisão (/)");
 
         operacao = scanner.next();
 
-        System.out.println("Digite o primeiro número: ");
+        System.out.print("Digite o primeiro número: ");
         numero1 = scanner.nextDouble();
 
-        System.out.println("Digite o segundo número: ");
+        System.out.print("Digite o segundo número: ");
         numero2 = scanner.nextDouble();
 
         switch (operacao) {

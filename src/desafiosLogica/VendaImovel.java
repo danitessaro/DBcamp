@@ -2,7 +2,7 @@ package desafiosLogica;
 
 import java.util.Scanner;
 
-class CalculoComissaoVendedor {
+class VendaImovel {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
